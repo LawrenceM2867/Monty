@@ -21,7 +21,7 @@ public class IntakeSubsystem extends SubsystemBase {
     Solenoid intake;
 
     public IntakeSubsystem(PneumaticHub hub) {
-        intake = hub.makeSolenoid(MotorConstants.solenoidID);
+        intake = hub.makeSolenoid(MotorConstants.intakesolenoidID);
 
         LIndexer.follow(frontmotor);
         RIndexer.follow(frontmotor);

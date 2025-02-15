@@ -23,6 +23,6 @@ public final class Constants {
     public static final int leftIndexerID = 12;
     public static final int rightIndexerID = 13;
     public static final int bottomTrackID = 14;
-    public static final int solenoidID = 8;
+    public static final int intakesolenoidID = 8;
 }
 }
