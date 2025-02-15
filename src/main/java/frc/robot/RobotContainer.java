@@ -14,7 +14,6 @@ import frc.robot.subsystems.intake.commands.SetIntakeState;
 import frc.robot.subsystems.drivetrain.DrivetrainSparkMax;
 
 public class RobotContainer {
-  // Create a new Xbox controller on port 0
   CommandXboxController controller = new CommandXboxController(0);
 
   private final PneumaticHub hub = new PneumaticHub(31);
